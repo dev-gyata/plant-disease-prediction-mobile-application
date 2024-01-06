@@ -1,1 +1,1 @@
-const BASE_URL = 'https://plant-disease-prediction-99.herokuapp.com/';
+const BASE_URL = 'http://10.0.2.2:8000/';

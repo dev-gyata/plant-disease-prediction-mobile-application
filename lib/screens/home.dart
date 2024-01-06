@@ -53,7 +53,8 @@ class _HomeState extends State<Home> {
       setState(() {
         _isLoading = true;
       });
-      var res = await ApiService.instance.getPrediction(_image!);
+      var res = await ApiService.instance
+          .getPrediction(file: _image!, plantType: _plantType!);
       setState(() {
         _isLoading = false;
       });

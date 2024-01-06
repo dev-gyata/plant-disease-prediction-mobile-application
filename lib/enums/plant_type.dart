@@ -1,1 +1,1 @@
-enum PlantType { TOMATO, PEPPER }
+enum PlantType { CORN, POTATO, PEPPER }
